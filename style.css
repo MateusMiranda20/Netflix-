@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.logo_cabecalho {
+    font-weight:600;
+    text-transform: uppercase;
+    color: red;
+}
+
+ul {
+    
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.bottom_idioma {
+    margin-left: 940px;
+    padding: 9px;
+    color: white;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+}
+
+.bottom_entrar {
+    list-style: none;
+    margin-left: 980px;
+}
