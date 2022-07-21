@@ -245,6 +245,23 @@
         font-weight: 400;
     }
 
+    .animacao_4 {
+       margin-left: -23px;
+       margin-top: 29px;
+    }
+
+    .animacao_4 > img {
+        height: 400px;
+        margin-left: 100px;
+        z-index: 1;
+        position: relative
+        
+    }
+
+    .video_final > video{ 
+        height: 240px;
+        margin-top: 57px;
+    }
 </style>
 
 <body>
@@ -313,13 +330,12 @@
                 <h1 class="text_titulo_terceiro"> Assista quando quiser.</h1>
                 <h3 class="text_subtitulo_terceiro">Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</h3>
             </div>
-            <div class="animacao">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                    alt="animação da netflix">
+            <div class="animacao_4">
+                <img src="/img/device-pile.png" alt="animação da netflix">
             </div>
-            <div class="video_primeiro">
-                <video loop autoplay muted>
-                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+            <div class="video_segundo">
+                <video class="video_final" loop autoplay muted>
+                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v">
                 </video>
             </div>
         </div>
