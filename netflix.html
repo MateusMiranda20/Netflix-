@@ -235,13 +235,13 @@
     }
 
     .text_titulo_terceiro {
-        font-size: 41px;
+        font-size: 47px;
         margin-left: 40px;
     }
 
     .text_subtitulo_terceiro {
         padding-left: 40px;
-        font-size: 25px;
+        font-size: 27px;
         font-weight: 400;
     }
 
@@ -251,16 +251,45 @@
     }
 
     .animacao_4 > img {
-        height: 400px;
+        height: 409px;
         margin-left: 100px;
         z-index: 1;
         position: relative
         
     }
 
-    .video_final > video{ 
-        height: 240px;
-        margin-top: 57px;
+    video{ 
+        
+        margin-left: -464px;
+        width: 373px;
+        margin-top: 72px;
+        height: 192px;
+
+    }
+
+    .text_titulo_quarto {
+        font-size: 50px;
+        margin-left: 40px;
+    }
+
+    .text_subtitulo_quarto {
+        padding-left: 40px;
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    .bloco_2 {
+        background-color: #000;
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+
+    .perguntas {
+        font-size: 52px;
+        font-weight: bolder;
+        color: #fff;
+        text-align: center;
+
     }
 </style>
 
@@ -334,27 +363,36 @@
                 <img src="/img/device-pile.png" alt="animação da netflix">
             </div>
             <div class="video_segundo">
-                <video class="video_final" loop autoplay muted>
+                <video loop autoplay muted>
                     <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v">
                 </video>
             </div>
         </div>
-    </section>
+    </section> 
     <section>
         <div id="bloco">
+            <div class="animacao_5">
+                <img src="/img/foto_netflix.png" alt="animação netflix" height="400">
+            </div>
             <div class="text">
-                <h1 class="text_titulo_primeiro">Crie perfis para crianças.</h1>
-                <h3 class="text_subtitulo_primeiro">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h3>
+                <h1 class="text_titulo_quarto">Crie perfis para crianças.</h1>
+                <h3 class="text_subtitulo_quarto">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.</h3>
             </div>
-            <div class="animacao">
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-                    alt="animação da netflix">
+        </div>
+    </section>
+    <section>
+        <div class="bloco_2">
+            <div>
+                <h1 class="perguntas">Perguntas frequentes</h1>
             </div>
-            <div class="video_primeiro">
-                <video loop autoplay muted>
-                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
-                </video>
-            </div>
+                <details>
+                    <summary> O que é a Netflix</summary>
+                    <p>
+                        A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
+                        <br><br>
+                        Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
+                    </p>
+                </details>
         </div>
     </section>
 </body>
