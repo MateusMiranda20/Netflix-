@@ -91,7 +91,7 @@
         font-weight: normal;
     }
 
-    #cadastro {
+    .cadastro {
         font-weight: 18px;
         font-weight: normal;
         margin: auto;
@@ -100,8 +100,8 @@
     }
 
     #cadastro_cliente {
-        width: 449px;
-        height: 44px;
+        width: 453px;
+        height: 50px;
         border: 0px;
         padding-left: 20px;
         font-size: 18px;
@@ -110,8 +110,8 @@
 
     .buttom_cadastro {
         background-color: rgb(229, 9, 20);
-        height: 46px;
-        width: 100px;
+        height: 52px;
+        width: 113px;
         border: 0px;
         margin-left: -3px;
         font-size: 18px;
@@ -278,6 +278,11 @@
         font-size: 26px;
         font-weight: 400;
     }
+    
+    #reta_final {
+        margin-bottom: 100px;
+        border-bottom: 8px solid rgb(34, 34, 34);
+    }
 
     .perguntas {
         font-size: 52px;
@@ -290,8 +295,8 @@
     details {
         text-align: center;
         background-color: #222;
-        width: 60%;
-        padding: 21px;
+        width: 55%;
+        padding: 16px;
         margin: auto;
         margin-bottom: 10px;
     }
@@ -310,17 +315,67 @@
     details > summary {
         display: flex;
         flex-direction: row;
-        justify-content: space-between  ;
+        justify-content: space-between;
     }    
 
     details > summary::after {
         content: '+';
-        
+        font-size: 34px;
     }
 
     details[open] > summary::after {
         content: 'x';
     }
+
+    .text_final {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .email_para_assistir {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 72px;
+    }
+
+    .cadastro_email {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+     
+    #final {
+        background-color: #000;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .duvidas {
+        color: #737373;
+        margin-top: -25px;
+        margin-left: 37px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #737373;
+    }
+
+    #final > ul {
+        width: 30%;
+        list-style: none;
+        justify-content: space-between;
+        line-height: 28px;
+        font-size: 14px;
+       
+    }    
+
+    footer {
+        width: 80%;
+        margin: auto;
+    }
+
+
+    
 </style>
 
 <body>
@@ -341,9 +396,9 @@
             <h2>Filmes, séries e muito mais. Sem limites.</h2>
             <h4>Assista onde quiser. Cancele quando quiser.</h4>
         </div>
-        <form method="post" id="cadastro">
+        <form method="post" class="cadastro">
             <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.
-            <p>
+            </p>
                 <input id="cadastro_cliente" type="text" name="Email" placeholder="E-mail">
                 <input class="buttom_cadastro" type="submit" value="Vamos lá >">
         </form>
@@ -411,51 +466,89 @@
         </div>
     </section>
     <section>
-        
+        <div id="reta_final">
             <div>
                 <h2 class="perguntas">Perguntas frequentes</h2>
             </div>
-        <details>
-            <summary>O que é a Netflix?</summary>
-            <p>
-                A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
-                <br><br>
-                Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
-             </p>
-         </details>
-        <details>
-            <summary>Quanto custa para assitir?</summary>
-            <p>
-                Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
-            </p>
-        </details>
-        <details>
-            <summary>Onde posso assistir?</summary>
-            <p>
-                Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.
-                <br><br>
-                Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.
-            </p>
-        </details>
-        <details>
-            <summary>Como faço para cancelar?</summary>
-            <p>
-                A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.
-            </p>
-        </details>
-        <details>
-            <summary>O que eu posso assitir na Netflix?</summary>
-            <p>
-                A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.
-            </p>
-        </details>
-        <details>
-            <summary>A Netflix é adequada para crianças?</summary>
-            <p>
-                A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.
-                <br><br>
-                O recurso de controle parental, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.
-        </details>
+            <details>
+                <summary>O que é a Netflix?</summary>
+                <p class="text_final">
+                    A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
+                    <br><br>
+                    Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.
+                </p>
+            </details>
+            <details>
+                <summary>Quanto custa para assitir?</summary>
+                <p class="text_final">
+                    Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+                </p>
+            </details>
+            <details>
+                <summary>Onde posso assistir?</summary>
+                <p class="text_final">
+                    Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.
+                    <br><br>
+                    Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet. Leve a Netflix com você para qualquer lugar.
+                </p>
+            </details>
+            <details>
+                <summary>Como faço para cancelar?</summary>
+                <p class="text_final">
+                    A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.
+                </p>
+            </details>
+            <details>
+                <summary>O que eu posso assitir na Netflix?</summary>
+                <p class="text_final">
+                    A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.
+                </p>
+            </details>
+            <details>
+                <summary>A Netflix é adequada para crianças?</summary>
+                <p class="text_final">
+                    A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.
+                    <br><br>
+                    O recurso de controle parental, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.
+            </details>
+            <form method="post" class="cadastro_email">
+                <p class="email_para_assistir">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
+                    <input id="cadastro_cliente" type="text" name="Email" placeholder="E-mail">
+                    <input class="buttom_cadastro" type="submit" value="Vamos lá >">
+            </form>
+        </div>
     </section>
+    <footer> 
+        <div class="duvidas"> 
+            <p> Dúvidas? Ligue  <a href="0800 591 8942">0800 591 8942</a> </p>
+        </div>
+        <div id="final">
+            <ul>
+                <li><a href="https://help.netflix.com/en/node/412">Perguntas frequentes</a></li>
+                <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Relações com investidores</a></li>
+                <li><a href="https://devices.netflix.com/en/">Formas de assistir</a></li>
+                <li><a href="https://help.netflix.com/legal/corpinfo">Informações corporativas </a></li>
+                <li><a href="https://www.netflix.com/br/browse/genre/839338">Só na Netflix</a></li>
+            </ul>
+            <ul>
+                <li>Central de Ajuda</li>
+                <li>Carreiras</li>
+                <li>Termos de Uso</li>
+                <li>Entre em contato</li>
+            </ul>
+            <ul>
+                <li>Conta</li>
+                <li>Resgatar cartão pré-pago</li>
+                <li>Privacidade</li>
+                <li>Teste de velocidade</li>
+            </ul>
+            <ul>
+                <li>Media Center</li>
+                <li>Comprar cartão pré-pago</li>
+                <li>Preferências de cookies</li>
+                <li>Avisos legais</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
