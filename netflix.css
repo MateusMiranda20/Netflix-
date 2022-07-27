@@ -1,0 +1,383 @@
+
+    body {
+        margin: 0px;
+        color: #fff;
+        background-image: url('/img/fundo-netflix.jpg');
+        background-repeat: no-repeat;
+        font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+        background-color: #000;
+    }
+
+    #principal {
+        background-image: url('logo.netflix.png');
+        padding-top: 30px;
+        background: rgba(0, 0, 0, .5);
+        background-image: linear-gradient(0deg, transparent 50%, rgba(0, 0, 0, .7)), radial-gradient(50% 100%, transparent 0, rgba(0, 0, 0, .7) 100%);
+        height: 690px;
+        border-bottom: 8px solid rgb(34, 34, 34);
+    }
+
+    #top {
+        margin-right: 20px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: row;
+        height: 30px;
+
+    }
+
+    .botao {
+        background-color: red;
+        border-radius: 5px;
+        border: 0px;
+        padding: 7px 17px;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    select {
+        background: rgba(0, 0, 0, 0.4);
+        border: 1px solid #aaa;
+        color: #fff;
+        font-size: 15px;
+        padding: 6px 6px;
+        width: 111px;
+        margin-right: 18px;
+
+    }
+
+    .esquerda {
+        height: 30px;
+        display: inline-block;
+        width: 25%;
+    }
+
+    .direita {
+        height: 30px;
+        display: inline-block;
+        width: 70%;
+        text-align: right;
+    }
+
+    .logo {
+        max-width: 145px;
+    }
+
+    #meio {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        padding-top: 100px;
+    }
+
+    #meio>h2 {
+
+        font-size: 50px;
+    }
+
+    #meio>h4 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    .cadastro {
+        font-weight: 18px;
+        font-weight: normal;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+
+    #cadastro_cliente {
+        width: 453px;
+        height: 50px;
+        border: 0px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+
+
+    .buttom_cadastro {
+        background-color: rgb(229, 9, 20);
+        height: 52px;
+        width: 113px;
+        border: 0px;
+        margin-left: -3px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    #bloco {
+        display: flex;
+        flex-direction: row;
+        padding-left: 6%;
+        padding-right: 6%;
+        background-color: #000;
+        padding-top: 25px;
+        padding-bottom: 60px;
+        border-bottom: 8px solid rgb(34, 34, 34);
+    }
+
+    .text {
+        width: 50%;
+        padding-top: 80px;
+
+    }
+
+    .animacao {
+        width: 50%;
+        padding-left: 200px;
+    }
+
+    .animacao>img {
+        width: 102%;
+        margin-top: 11px;
+        margin-left: -28px;
+        z-index: 2;
+        position: relative;
+
+    }
+
+    .text_titulo_primeiro {
+        font-size: 50px;
+        margin-left: 40px;
+    }
+
+    .text_subtitulo_primeiro {
+        padding-left: 40px;
+        font-size: 23px;
+        font-weight: 400;
+    }
+
+    video {
+        margin-left: -464px;
+        width: 373px;
+        margin-top: 92px;
+    }
+
+    
+    .text {
+        width: 50%;
+        padding-top: 80px;
+    }
+
+    .animacao2 {
+        width: 50%;
+        padding-left: 200px;
+    }
+
+    .animacao_2 > img {
+        width: 83%;
+        margin-top: 11px;
+        margin-left: -48px;
+        z-index: 2;
+        position: relative;
+
+    }
+
+    .text_titulo_segundo {
+        font-size: 50px;
+        margin-left: 40px;
+    }
+
+    .text_subtitulo_segundo {
+        padding-left: 40px;
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .animacao_3 {
+        background-color: rgb(0 0 0);
+        height: 87px;
+        width: 279px;
+        border-radius: 10px;
+        margin-left: -1130px;
+        position: relative;
+        z-index: 2;
+        margin-top: 276px;
+    }
+
+    .text_0 {
+        margin-top: -53px;
+        font-weight: 600;
+        font-size: 17px;
+        margin-bottom: 0px;
+        margin-left: 17px;
+    }
+
+    .text_1 {
+        margin-top: 1px;
+        color: blue;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 17px;
+    }
+    
+    .animacao_3 > img {
+        margin-left: -50px;
+        margin-top: 8;
+
+    }
+
+    #gif_download {
+        margin-left: 300px;
+        margin-top: -50px;
+    }
+
+    .text_titulo_terceiro {
+        font-size: 47px;
+        margin-left: 40px;
+    }
+
+    .text_subtitulo_terceiro {
+        padding-left: 40px;
+        font-size: 27px;
+        font-weight: 400;
+    }
+
+    .animacao_4 {
+       margin-left: -23px;
+       margin-top: 29px;
+    }
+
+    .animacao_4 > img {
+        height: 409px;
+        margin-left: 100px;
+        z-index: 1;
+        position: relative
+        
+    }
+
+    video{ 
+        
+        margin-left: -464px;
+        width: 373px;
+        margin-top: 72px;
+        height: 192px;
+
+    }
+
+    .text_titulo_quarto {
+        font-size: 50px;
+        margin-left: 40px;
+    }
+
+    .text_subtitulo_quarto {
+        padding-left: 40px;
+        font-size: 26px;
+        font-weight: 400;
+    }
+    
+    #reta_final {
+        margin-bottom: 100px;
+        border-bottom: 8px solid rgb(34, 34, 34);
+    }
+
+    .perguntas {
+        font-size: 52px;
+        font-weight: bolder;
+        color: #fff;
+        text-align: center;
+
+    }
+
+    details {
+        text-align: center;
+        background-color: #222;
+        width: 55%;
+        padding: 16px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    details summary::-webkit-details-marker {
+        display:none;
+    }
+   
+    summary {
+        font-size: 26px;
+        margin-left: 4%;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    details > summary {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
+    details > summary::after {
+        content: '+';
+        font-size: 34px;
+    }
+
+    details[open] > summary::after {
+        content: 'x';
+    }
+
+    .text_final {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .email_para_assistir {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 72px;
+    }
+
+    .cadastro_email {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+     
+    #final {
+        background-color: #000;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+
+    .duvidas {
+        color: #737373;
+        margin-top: -25px;
+        margin-left: 37px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #737373;
+    }
+
+    #final > ul {
+        width: 30%;
+        list-style: none;
+        justify-content: space-between;
+        line-height: 28px;
+        font-size: 14px;
+       
+    }    
+
+    footer {
+        width: 80%;
+        margin: auto;
+    }
+
+    .idioma > select {
+        background: rgba(0, 0, 0, 0.4);
+        border: 1px solid #737373;
+        color: #737373;
+        font-size: 16px;
+        padding: 11px 12px;
+        width: 126px;
+        margin-left: 39px;
+    }
+
+    .container {
+        color: #737373;
+        margin-top: 41px;
+        margin-left: 41px;
+        font-size: 14px;
+    }
