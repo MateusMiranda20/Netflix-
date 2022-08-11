@@ -106,7 +106,6 @@
         color: #fff;
     }
 
-
     #bloco {
         display: flex;
         flex-direction: row;
@@ -248,13 +247,19 @@
         
     }
 
-    video{ 
-        
+    .video2 { 
+        margin-left: 15px;
+        width: 349px;
+        margin-top: -7px;
+        height: 218px;
+
+    }
+
+    .video_segundo {
         margin-left: -464px;
         width: 373px;
         margin-top: 72px;
-        height: 192px;
-
+        height: 239px;
     }
 
     .text_titulo_quarto {
